@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+h1{
+  font-size: 3rem;
+  margin: 0;
+  color: black;
+}
+
+.mute-button{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transition: transform 0.2 ease, filter 0.2s ease;
+}
+
+
+
+p{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: gray;
+  margin: 0;
+}
